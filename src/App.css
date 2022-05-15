@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ta_addNote{
+  outline: none;
+  border: 0;
+  resize: none;
+  border-radius: 10px;
+  padding-left: 5px;
+  background-color:rgba(240, 248, 255, 0.1);
+  font-family: 'Poppins', sans-serif;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.685);
+  
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ta_addNote::placeholder{
+  color: rgba(255, 255, 255, 0.5);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ta_addNote:focus{
+  outline: none;
+}
+.search-cont{
+  width: 90%;
   display: flex;
-  flex-direction: column;
+  
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.ta-search{
+  background-color:rgba(255, 255, 255, 0.2);
+  outline: none;
+  border: 0;
+  resize:none;
+  min-width: 80%;
+  padding: 15px;
+  overflow: hidden;
+  border-radius: 15px ;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  
+ 
+}
+.ta-search::placeholder{
+color: aliceblue;
+}
+.for-bg{
+  position: absolute;
+  width: 100vw;
+  height:100vh;
+  background: url(./assets/bg.jpg);
+  background-size: contain;
+  filter: blur(50px);
+  background-position: center center;
+  z-index: -1;
+  
+}
+.header{
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.save{
+  font-size: 0.9rem;
+  background: linear-gradient(90deg,#BF6FFF70,#6F14B7a0);
+  border: 0;
+ border-radius: 10px;
+ padding: 10px;
+ font-weight: 500;
+ color: aliceblue;
+ letter-spacing: 2px;
+ font-family: 'Poppins', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.save:hover{
+  transition: all ease 0.5s;
+  transform: scale(1.02);
+}
+.rem-char{
+  width: 100%;
+  color: rgba(240, 248, 255, 0.705);
+  padding :10px 0;
+  text-align: right;
+
+}
+.del-icon{
+  float: right;
+  align-items: flex-end;
+}
+.del-icon:hover{
+  transition: all ease 0.3s;
+  transform: scale(1.1);
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-text{
+  font-size: 1.3rem;
 }
