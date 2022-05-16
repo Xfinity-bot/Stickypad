@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Another note taking react app, stores locally .
 
 ## Live Links
-https://www.stickynote.gq/ (Try below link if this link is broken)
+https://www.stickynote.gq/ (Try the below link if this link is broken)
 
 https://master--venerable-capybara-7e47a0.netlify.app/
 
