@@ -13,7 +13,7 @@ https://master--venerable-capybara-7e47a0.netlify.app/
 ## Snapshots
 ![Quote 1](https://ik.imagekit.io/zatkf9sf1/Screenshot__46__Y91KKb9k0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652690839079)
 
-**Snapshot 1**
+
 
 ![Quote 2](https://ik.imagekit.io/zatkf9sf1/Screenshot__47__pwC87eeiG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652690839080)
 
