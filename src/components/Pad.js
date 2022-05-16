@@ -8,7 +8,7 @@ const Pad = ({id,text,time,handleDelNote}) => {
             <span className='main-text'>{text}</span>
             <div><small>{time}</small>
             
-           <img src={delIcon} width='20px' className='del-icon' onClick={()=>handleDelNote(id)}/></div>
+           <img src={delIcon} alt="delete_icon" width='20px' className='del-icon' onClick={()=>handleDelNote(id)}/></div>
         </div>
     )
 }
