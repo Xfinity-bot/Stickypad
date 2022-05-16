@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description 
+Another note taking react app, stores locally .
+
+## Live Links
+https://www.stickynote.gq/ (Try below link if this link is broken)
+
+https://master--venerable-capybara-7e47a0.netlify.app/
+
+## Snapshots
+![Quote 1](https://ik.imagekit.io/zatkf9sf1/Screenshot__46__Y91KKb9k0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652690839079)
+
+**Snapshot 1**
+
+![Quote 2](https://ik.imagekit.io/zatkf9sf1/Screenshot__47__pwC87eeiG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1652690839080)
+
 ## Available Scripts
 
 In the project directory, you can run:
